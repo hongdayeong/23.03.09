@@ -1,8 +1,33 @@
-html, div {
-    font-size:7erm;
+div {
+    font-size:7rem;
+    font-weight:bold;
+    text-align:center;
+    letter-spacing:-0.4rem;
   }
-
-section {
+  
+  nav {
     text-align:center;
     font-weight:bold;
   }
+  nav > section {
+    display:inline-block;
+    width:50px;
+  }
+
+  <div>
+  <a href="#">BMK</a>
+</div>
+
+<nav>
+<section><a href="#">BRAND</a></section>
+|
+<section><a href="#">VISUAL</a></section>
+|
+ <section><a href="#">style</a></section>
+| 
+<section><a href="#">store</a></section>
+|
+<section><a href="#">NEWS</a></section>
+| 
+<section><a href="#">MEDIA</a></section>
+</nav>
