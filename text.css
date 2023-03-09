@@ -1,8 +1,25 @@
-html, div {
-    font-size:7erm;
-  }
-
-section {
-    text-align:center;
-    font-weight:bold;
-  }
+html, 
+    a {
+        color:black;
+        text-decoration:none;
+      }
+      div {
+        font-size:7rem;
+        font-weight:bold;
+        text-align:center;
+        letter-spacing:-0.4rem;
+      }
+      
+      nav {
+        text-align:center;
+        font-weight:bold;
+      }
+      nav > section {
+        display:inline-block;
+        width:120px;
+      }
+      nav > section:hover > a {
+        color:red;
+        display:block;
+        text-decoration:underline;
+      }
